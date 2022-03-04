@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  height: 100vh;
+  -webkit-transition: background 1200ms ease-in-out;
+  transition: background 1200ms ease-in-out;
+}
+
+.wrapper #quote-box {
+  background: white;
+  padding: 2em;
+  width: 50%;
+  min-width: 400px;
+}
+
+.wrapper #quote-box .quote #text {
+  font-size: 1.2rem;
+  text-align: left;
+  letter-spacing: 1px;
+  -webkit-transition: color 1200ms ease-in-out;
+  transition: color 1200ms ease-in-out;
+}
+
+.wrapper #quote-box .quote #text .fa {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+
+.wrapper #quote-box .quote #author {
+  font-size: 0.8rem;
+  text-align: right;
+  margin-top: 1em;
+  -webkit-transition: color 1200ms ease-in-out;
+  transition: color 1200ms ease-in-out;
+}
+
+.wrapper #quote-box .controls {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper #quote-box .controls .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper #quote-box .controls .social a {
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.wrapper #quote-box .controls .social a:hover {
+  opacity: 0.8;
+}
+
+.wrapper #quote-box .controls .social a i {
+  width: 30px;
+  height: 30px;
+  background: black;
+  color: white;
+  margin: 0 0.1em;
+  -webkit-transition: background 1200ms ease-in-out;
+  transition: background 1200ms ease-in-out;
+}
+
+.wrapper #quote-box .controls #new-quote {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.3em 0.6em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  -webkit-transition: background 1200ms ease-in-out;
+  transition: background 1200ms ease-in-out;
+}
+
+.wrapper #quote-box .controls #new-quote:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
